@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.navbar {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+.navbar a:hover {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+footer p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container form{
+    padding: 10px;
+}
+/* Título */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+/* Botón */
+.btn-create {
+    display: inline-block;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.btn-create:hover {
+    background-color: #2980b9;
+}
+
+/* Tabla centrada */
+.centered-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+/* Encabezado y celdas */
+.centered-table thead {
+    background-color: #ecf0f1;
+}
+
+.centered-table th, .centered-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.centered-table th {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.centered-table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-control:focus {
+    border-color: #4ca7e4;
+    outline: none;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4ca7e4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #176fb2;
+}
